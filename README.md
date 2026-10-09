@@ -1,4 +1,4 @@
-# Network Security Stack
+# Projet technique - Infrastructure Réseau Sécurisée
 
 Mini-laboratoire de cybersécurité réseau basé sur **Squid** et **Snort**, permettant de mettre en place une chaîne de défense composée d'un proxy filtrant et d'un système IDS/IPS.
 
