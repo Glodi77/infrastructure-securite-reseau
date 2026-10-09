@@ -1,0 +1,9 @@
+# $Id: local.rules,v 1.11 2004/07/23 20:15:44 bmc Exp $
+# ----------------
+# LOCAL RULES
+# ----------------
+# This file intentionally does not come with signatures.  Put your local
+# additions here.
+
+drop icmp any any -> any any (msg:"[LUMPINI] Ping ICMP bloqué"; sid:2000001; rev:1;)
+drop tcp any any -> 22 (msg:"[IPS] Tentative de connexion SSH bloquée"; sid:2000002; rev:1;)

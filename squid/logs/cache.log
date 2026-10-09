@@ -1,0 +1,68 @@
+2025/11/19 17:56:45| Current Directory is /
+2025/11/19 17:56:45| Starting Squid Cache version 5.9 for x86_64-pc-linux-gnu...
+2025/11/19 17:56:45| Service Name: squid
+2025/11/19 17:56:45| Process ID 1
+2025/11/19 17:56:45| Process Roles: master worker
+2025/11/19 17:56:45| With 1048576 file descriptors available
+2025/11/19 17:56:45| Initializing IP Cache...
+2025/11/19 17:56:45| DNS Socket created at [::], FD 8
+2025/11/19 17:56:45| DNS Socket created at 0.0.0.0, FD 9
+2025/11/19 17:56:45| Adding nameserver 172.20.10.1 from /etc/resolv.conf
+2025/11/19 17:56:45| Adding domain . from /etc/resolv.conf
+2025/11/19 17:56:45| Logfile: opening log /var/log/squid/access.log
+2025/11/19 17:56:45| WARNING: log name now starts with a module name. Use 'stdio:/var/log/squid/access.log'
+2025/11/19 17:56:45| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/11/19 17:56:45| Store logging disabled
+2025/11/19 17:56:45| Swap maxSize 0 + 262144 KB, estimated 20164 objects
+2025/11/19 17:56:45| Target number of buckets: 1008
+2025/11/19 17:56:45| Using 8192 Store buckets
+2025/11/19 17:56:45| Max Mem  size: 262144 KB
+2025/11/19 17:56:45| Max Swap size: 0 KB
+2025/11/19 17:56:45| Using Least Load store dir selection
+2025/11/19 17:56:45| Current Directory is /
+2025/11/19 17:56:45| Finished loading MIME types and icons.
+2025/11/19 17:56:45| HTCP Disabled.
+2025/11/19 17:56:45| Pinger socket opened on FD 13
+2025/11/19 17:56:45| Squid plugin modules loaded: 0
+2025/11/19 17:56:45| Adaptation support is off.
+2025/11/19 17:56:45| Accepting HTTP Socket connections at conn3 local=[::]:3128 remote=[::] FD 11 flags=9
+2025/11/19 17:56:45| pinger: Initialising ICMP pinger ...
+2025/11/19 17:56:45| pinger: ICMP socket opened.
+2025/11/19 17:56:45| pinger: ICMPv6 socket opened
+2025/11/19 17:56:46| storeLateRelease: released 0 objects
+2025/11/19 17:58:24| SendEcho ERROR: sending to ICMPv6 packet to [2600:1406:5e00:6::17ce:bc1b]: (101) Network is unreachable
+2025/11/20 10:18:01| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 10:18:01| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 10:18:01| NETDB state saved; 0 entries, 16 msec
+2025/11/20 11:36:46| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 11:36:46| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 11:36:46| NETDB state saved; 0 entries, 26 msec
+2025/11/20 13:38:40| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 13:38:40| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 13:38:40| NETDB state saved; 0 entries, 0 msec
+2025/11/20 14:20:07| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 14:20:07| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 14:20:07| NETDB state saved; 0 entries, 26 msec
+2025/11/20 15:35:11| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 15:35:11| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 15:35:11| NETDB state saved; 0 entries, 0 msec
+2025/11/20 16:48:13| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 16:48:13| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 16:48:13| NETDB state saved; 0 entries, 1 msec
+2025/11/20 17:50:40| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 17:50:40| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 17:50:40| NETDB state saved; 0 entries, 0 msec
+2025/11/20 19:10:13| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 19:10:13| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 19:10:13| NETDB state saved; 0 entries, 0 msec
+2025/11/20 20:10:20| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 20:10:20| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 20:10:20| NETDB state saved; 0 entries, 127 msec
+2025/11/20 22:35:43| Logfile: opening log stdio:/var/spool/squid/netdb.state
+2025/11/20 22:35:43| Logfile: closing log stdio:/var/spool/squid/netdb.state
+2025/11/20 22:35:43| NETDB state saved; 0 entries, 1 msec
+2025/11/20 22:53:02| Preparing for shutdown after 8 requests
+2025/11/20 22:53:02| Waiting 30 seconds for active connections to finish
+2025/11/20 22:53:02| Closing HTTP(S) port [::]:3128
+2025/11/20 22:53:02| Closing Pinger socket on FD 13
+2025/11/20 22:53:08| Pinger exiting.
